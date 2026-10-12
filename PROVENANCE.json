@@ -1,0 +1,80 @@
+{
+  "main_repository": "https://github.com/MrM4yor/traffic-signal-optimization",
+  "main_commit": "0229ce7a998302a2ec30d93b0392218e4b6dbbb3",
+  "exports": [
+    {
+      "portfolio_path": "code/event_matching.py",
+      "sha256": "ddf8582f0bd94c5777fc3e423bc22343b59ec6c11e47db846d54182008743ffd",
+      "source": "scripts/event_matching.py"
+    },
+    {
+      "portfolio_path": "code/blended_predictor.py",
+      "sha256": "9a7136a03f67c29ff8b3104f960f7e92e3d93f9b13fb70b0de0807725286d0b5",
+      "source": "scripts/blended_predictor.py"
+    },
+    {
+      "portfolio_path": "code/evolution_policy.py",
+      "sha256": "9adadeaa65e70e299cbd670f590d11c5ab1a060ebb0cab28568fad36f86e81ed",
+      "source": "scripts/evolution_policy.py"
+    },
+    {
+      "portfolio_path": "code/phase_feature_schema.py",
+      "sha256": "b30bc2842bb3b4fceeb692dbc33aef567a6983957465cfc6a9e5799593546c33",
+      "source": "scripts/phase_feature_schema.py"
+    },
+    {
+      "portfolio_path": "code/train_neural_phase_ranker.py",
+      "sha256": "436efedc45189cfb9f12f446120b1443c5734491cdd8608ac506304170b7bc9f",
+      "source": "scripts/train_neural_phase_ranker.py"
+    },
+    {
+      "portfolio_path": "code/sensor_features.py",
+      "sha256": "a6ba80733da6abb1c3dc624e70b128e54553601daaadcb929e96c8cd789bc703",
+      "source": "scripts/sensor_features.py"
+    },
+    {
+      "portfolio_path": "code/atspm_common.py",
+      "sha256": "8fe96d3cb118cc9188ca10cfdf41530f6b4f3f9d77da6a96643d39768144bc3c",
+      "source": "scripts/atspm_common.py"
+    },
+    {
+      "portfolio_path": "reference/atspm_forward.py",
+      "sha256": "a5deb3b9f0b547c85e71b074ae8e050f5cf891e50af8ec3d42120a56556bff64",
+      "source": "scripts/atspm_forward.py"
+    },
+    {
+      "portfolio_path": "reference/multi_phase_controller.py",
+      "sha256": "010627c9a2d798af9c61a382b06dd3c57aad87983beec3b26b6335ac4afb5a67",
+      "source": "scripts/multi_phase_controller.py"
+    },
+    {
+      "portfolio_path": "reference/generate_multiphase_paired_dataset.py",
+      "sha256": "fe953c388d179b2660dc97dfd656857065495497ebc319b3f8d67419fe7aa48e",
+      "source": "scripts/generate_multiphase_paired_dataset.py"
+    },
+    {
+      "portfolio_path": "evidence/controllers.json",
+      "sha256": "480cb583ff6a76c5420d35b8df4734f95f882ddbd636237abf7f8c1af201e465",
+      "source": "aggregate projection of main evidence"
+    },
+    {
+      "portfolio_path": "evidence/reconstruction.json",
+      "sha256": "49ac009fde9b6192a3ff984e1d8ff9b3f2629c494a2617ab80a210890bf83d5f",
+      "source": "aggregate projection of main evidence"
+    },
+    {
+      "portfolio_path": "evidence/forward.json",
+      "sha256": "43f38678b0eaa11f26ae8f3d56b4788c0ce6608c3b5da6afa7ea2396757b6b1c",
+      "source": "aggregate projection of main evidence"
+    }
+  ],
+  "source_evidence_sha256_lf": {
+    "evidence/neural_ranker_tuned_vs_portfolio_v10.json": "3e6541521524cc5ec3fe47200c038fe2f2313519f5eb78f92892b98a8e9194fd",
+    "evidence/tuned_mlp_vs_tree_portfolio_v10.json": "7a3d09e8e21377ca840e7dab9eb4d0245cb546f634803047338e0b9ec98dc2cb",
+    "evidence/atspm_nn_run1/replay_0000/metrics.json": "ac222c2b0450075a8cd25a711276c57d38e55b337a4bca180329c947a1989380",
+    "evidence/atspm_nn_run1/replay_0012/metrics.json": "115fae342bf775398001ad8db0b7d80464c15573acc0920efe159f6be5bb6bd1",
+    "evidence/atspm_forward_v3b/score/score.json": "cd56756504cb180cd756e30656b7181d70ba7b787f850323d5e37f35e434381a"
+  },
+  "transformation": "Code copied verbatim with LF newlines. Controller runs/paths and per-detector event pairs omitted; aggregate metrics retained. Forward aggregate score copied.",
+  "historical_results": "Metrics precede review fixes; no rebenchmark implied."
+}

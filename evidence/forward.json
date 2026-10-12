@@ -1,0 +1,48 @@
+{
+  "model": {
+    "rows": 5292,
+    "first_detector_accuracy": 0.9355631141345427,
+    "second_detector_accuracy": 0.9710884353741497,
+    "exact_sequence_accuracy": 0.9185563114134543,
+    "first_detection_time_mae_s": 1.3613139390945435,
+    "second_detection_time_mae_s": 8.436755180358887,
+    "relative_x_m_mae": 30.55506706237793,
+    "relative_y_m_mae": 17.402328491210938,
+    "speed_mps_mae": 2.5359413623809814,
+    "accel_mps2_mae": 0.49154964089393616,
+    "stopped_mae": 0.12407775223255157,
+    "queue_rank_mae": 0.41225466132164,
+    "leader_gap_m_mae": 25.276138305664062,
+    "leader_relative_speed_mps_mae": 1.6064064502716064,
+    "green_mae": 0.32771673798561096,
+    "local_count_mae": 0.6519830822944641,
+    "trajectory_latent_rmse": 2.696290969848633
+  },
+  "sequence_group_median_baseline": {
+    "first_detection_time_mae_s": 1.5573965311050415,
+    "second_detection_time_mae_s": 9.990744590759277,
+    "relative_x_m_mae": 20.376598358154297,
+    "relative_y_m_mae": 9.993659973144531,
+    "speed_mps_mae": 2.988766670227051,
+    "accel_mps2_mae": 0.4138474762439728,
+    "stopped_mae": 0.1283409297466278,
+    "queue_rank_mae": 0.54804527759552,
+    "leader_gap_m_mae": 29.18812370300293,
+    "leader_relative_speed_mps_mae": 1.4208861589431763,
+    "green_mae": 0.3797455430030823,
+    "local_count_mae": 0.7425638437271118
+  },
+  "pca_reconstruction_ceiling": {
+    "relative_x_m_mae": 16.18909454345703,
+    "relative_y_m_mae": 9.082901954650879,
+    "speed_mps_mae": 0.8211039304733276,
+    "accel_mps2_mae": 0.30027881264686584,
+    "stopped_mae": 0.04051163047552109,
+    "queue_rank_mae": 0.18907922506332397,
+    "leader_gap_m_mae": 11.70550537109375,
+    "leader_relative_speed_mps_mae": 0.6919995546340942,
+    "green_mae": 0.1931944638490677,
+    "local_count_mae": 0.3038325905799866
+  },
+  "caveat": "Baseline is given the actual detector sequence and therefore only compares timing/motion, not detector classification."
+}

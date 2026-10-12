@@ -1,0 +1,71 @@
+{
+  "accepted": {
+    "groups": {
+      "boundary": {
+        "raw": 1850,
+        "sim": 1850,
+        "matched": 1850,
+        "coverage_pct": 100.0,
+        "count_absolute_error": 0,
+        "mae_s": 0.2280542535131492,
+        "loss_s": 0.2280542535131492,
+        "identity_matched": 1850,
+        "identity_mae_s": 0.2280542535131492
+      },
+      "internal": {
+        "raw": 932,
+        "sim": 929,
+        "matched": 903,
+        "coverage_pct": 96.88841201716738,
+        "count_absolute_error": 3,
+        "mae_s": 24.449501584718003,
+        "loss_s": 30.77027889592313
+      }
+    },
+    "safety": {
+      "collisions": 0,
+      "teleports": 0,
+      "running": 0,
+      "waiting": 0,
+      "arrived": 1884,
+      "warning_bytes": 0,
+      "signals_sha256": "27ad924e303817179e589192fcb145c241a298d19a86ae121452f2749bc5697c"
+    },
+    "accepted_constraints": true
+  },
+  "trial": {
+    "groups": {
+      "boundary": {
+        "raw": 1850,
+        "sim": 1850,
+        "matched": 1850,
+        "coverage_pct": 100.0,
+        "count_absolute_error": 0,
+        "mae_s": 0.25005421459432564,
+        "loss_s": 0.25005421459432564,
+        "identity_matched": 1850,
+        "identity_mae_s": 0.25005421459432564
+      },
+      "internal": {
+        "raw": 932,
+        "sim": 929,
+        "matched": 903,
+        "coverage_pct": 96.88841201716738,
+        "count_absolute_error": 3,
+        "mae_s": 23.907198136212855,
+        "loss_s": 30.244849696352155
+      }
+    },
+    "safety": {
+      "collisions": 0,
+      "teleports": 0,
+      "running": 0,
+      "waiting": 0,
+      "arrived": 1884,
+      "warning_bytes": 0,
+      "signals_sha256": "27ad924e303817179e589192fcb145c241a298d19a86ae121452f2749bc5697c"
+    },
+    "accepted_constraints": false
+  },
+  "interpretation": "Anonymous observation fit; no unique real-vehicle identity claim."
+}

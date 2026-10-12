@@ -1,0 +1,136 @@
+{
+  "primary": {
+    "routes_per_package": 20,
+    "totals": {
+      "mlp": {
+        "stops_created": 3044.0,
+        "decel_sum": 81810.38026339668,
+        "waiting_time_s": 22481.0,
+        "time_loss_s": 56985.052650823105,
+        "co2_mg": 455747086.7882484
+      },
+      "neural_ranker": {
+        "stops_created": 2825.0,
+        "decel_sum": 79566.28368956775,
+        "waiting_time_s": 24162.0,
+        "time_loss_s": 58030.06521339014,
+        "co2_mg": 453870030.04393315
+      },
+      "portfolio": {
+        "stops_created": 3137.0,
+        "decel_sum": 82667.30763615228,
+        "waiting_time_s": 22859.0,
+        "time_loss_s": 57956.46139163389,
+        "co2_mg": 458551163.07955426
+      }
+    },
+    "summary": {
+      "improvement_mlp_vs_portfolio_pct": {
+        "stops_created": 2.964615875039847,
+        "decel_sum": 1.0365976554204912,
+        "waiting_time_s": 1.653615643728947,
+        "time_loss_s": 1.6761008479220445,
+        "co2_mg": 0.6115078353469053
+      },
+      "improvement_neural_ranker_vs_portfolio_pct": {
+        "stops_created": 9.945808096907873,
+        "decel_sum": 3.7512095594466768,
+        "waiting_time_s": -5.700161861848724,
+        "time_loss_s": -0.12699847435280145,
+        "co2_mg": 1.0208529412908662
+      },
+      "ranker_wins_ties_losses": {
+        "stops_created": [
+          17,
+          1,
+          2
+        ],
+        "decel_sum": [
+          19,
+          0,
+          1
+        ],
+        "waiting_time_s": [
+          8,
+          0,
+          12
+        ],
+        "time_loss_s": [
+          9,
+          0,
+          11
+        ],
+        "co2_mg": [
+          15,
+          0,
+          5
+        ]
+      },
+      "mean_wall_s": {
+        "mlp": 2.445358380000016,
+        "neural_ranker": 5.268650099999968,
+        "portfolio": 7.919515979999915
+      }
+    }
+  },
+  "alternate": {
+    "routes_per_package": 20,
+    "totals": {
+      "mlp": {
+        "stops_created": 2989.0,
+        "decel_sum": 79152.28846568496,
+        "waiting_time_s": 22306.0,
+        "time_loss_s": 55885.439139943,
+        "co2_mg": 441647058.22668976
+      },
+      "portfolio": {
+        "stops_created": 2911.0,
+        "decel_sum": 78809.47909157438,
+        "waiting_time_s": 21625.0,
+        "time_loss_s": 54884.08989431608,
+        "co2_mg": 439930597.42740244
+      }
+    },
+    "summary": {
+      "improvement_mlp_vs_portfolio_pct": {
+        "stops_created": -2.6794915836482307,
+        "decel_sum": -0.4349849511278323,
+        "waiting_time_s": -3.1491329479768786,
+        "time_loss_s": -1.824480004232748,
+        "co2_mg": -0.390166269253543
+      },
+      "wins_ties_losses": {
+        "stops_created": [
+          7,
+          0,
+          13
+        ],
+        "decel_sum": [
+          11,
+          0,
+          9
+        ],
+        "waiting_time_s": [
+          7,
+          0,
+          13
+        ],
+        "time_loss_s": [
+          6,
+          0,
+          14
+        ],
+        "co2_mg": [
+          11,
+          0,
+          9
+        ]
+      },
+      "mean_wall_s": {
+        "mlp": 2.631678715000021,
+        "portfolio": 8.801384935000055
+      }
+    }
+  },
+  "interpretation": "Saved historical closed-loop benchmarks, not fresh runs of reviewed code."
+}
