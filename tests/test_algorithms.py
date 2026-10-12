@@ -1,10 +1,12 @@
 """Portable algorithm regressions exported from the reviewed main project."""
+
 import sys
 from pathlib import Path
 import unittest
 from types import SimpleNamespace
 import numpy as np
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'code'))
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "code"))
 from blended_predictor import BlendedClassifier
 from event_matching import optimal_pairs
 import evolution_policy as policy
@@ -35,6 +37,7 @@ class BlendTests(unittest.TestCase):
                 self.teacher([0, 1], [0.8, 0.2]), self.teacher([0, 1], [0.4, 0.6]), 2
             )
 
+
 class PolicyTests(unittest.TestCase):
     def test_native_noop_and_shapes(self):
         for kind in ("linear", "polynomial", "mlp"):
@@ -60,12 +63,14 @@ class PolicyTests(unittest.TestCase):
                 atol=1e-12,
             )
 
+
 class MatchingInputTests(unittest.TestCase):
     def test_numpy_events_and_invalid_values(self):
         self.assertEqual(len(optimal_pairs(np.array([1, 1]), np.array([1]), 0)), 1)
         for values, tolerance in [([float("nan")], 1), ([1], -1)]:
             with self.assertRaises(ValueError):
                 optimal_pairs(values, [1], tolerance)
+
 
 class MatchingTests(unittest.TestCase):
     def test_crossed_example(self):
