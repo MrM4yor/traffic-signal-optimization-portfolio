@@ -90,5 +90,7 @@ here without needing access to it.
 
 AI tools assisted implementation, debugging, review, and documentation. This is
 presented as an ongoing personal research project, with unresolved limitations
-visible. Licensing and data attribution are being finalized before public release;
-see [publication checklist](docs/PUBLICATION.md).
+visible. Original code and documentation are open source under the [MIT license](LICENSE).
+Dependency and research-input attribution is in [NOTICE.md](NOTICE.md); underlying
+datasets and network assets are not redistributed or relicensed here. See the
+[publication review](docs/PUBLICATION.md) for the privacy audit and release scope.
